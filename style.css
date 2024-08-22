@@ -1,0 +1,228 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    background-color: #F9F9F9;
+    
+}
+p, ul, h2, h1, h3{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+.container{
+    width: 1720px;
+    margin:0 auto;
+    
+}
+/* Styles for header */
+.header{
+border-bottom: 2px solid #779611;
+padding: 41px 0px;
+}
+.header-container{
+    display: flex;
+    gap:120px;
+}
+.header-logo{
+margin-left: 100px;
+}
+.header-list{
+    display: flex;
+    gap:80px;
+}
+.header-link{
+    font-weight: 500;
+    color: #707070;
+    gap:80px;
+  font-family:   "Montserrat", sans-serif;
+}
+/* First Section */
+.hero{
+    border-bottom: 2px solid #779611;
+}
+.hero-container{
+    display: flex;
+    gap:461px;
+    align-items: center;
+    margin-left: 100px;
+}
+.hero-title{
+    font-weight: 600;
+    font-size: 48px;
+    color: #779611;
+    font-family: "Exo 2", sans-serif;
+    margin-bottom: 50px;
+    max-width: 400px;
+}
+.hero-text{
+    font-weight: 400;
+    font-size: 24px;
+    margin-bottom: 50px;
+    color: #000;
+   font-family:  "Montserrat", sans-serif;
+   
+}
+.hero-link{
+    background-color: #779611;
+    border-radius: 40px;
+    padding: 18px 70px;
+    font-weight: 400;
+    font-size: 32px;
+    color: #F9F9F9;
+    font-family:  "Montserrat", sans-serif;
+}
+.hero-img{
+margin-right: 137px;
+}
+/* Second Section */
+.shop-container{
+    margin-left: 100px;
+}
+.shop-title{
+    padding-top:80px;
+    padding-bottom: 35px;
+    font-weight: 600;
+    font-size: 36px;
+    color: #779611;
+    font-family: "Exo 2", sans-serif  ;
+}
+.shop-text{
+    font-weight: 400;
+color: #000;
+padding-bottom: 50px;
+font-family: "Montserrat", sans-serif;
+}
+.shop-list{
+    display: flex;
+    gap:20px;
+}
+.shop-caption{
+font-weight: 400;
+font-size: 24px;
+color: #779611;
+padding-top:35px;
+padding-bottom: 15px;
+padding-left: 60px;
+font-family: "Montserrat", sans-serif;
+}
+.shop-price{
+    padding-left: 60px;
+    font-weight: 400;
+    color: #000;
+    font-family: "Montserrat", sans-serif;
+    
+}
+/* Third Section */
+.subscription{
+    border-bottom: 2px solid #779611;
+}
+.subscription-container{
+    margin-left: 100px;
+    
+}
+.subscription-title{
+    padding-top:80px;
+    padding-bottom: 35px;
+    font-family: "Exo 2", sans-serif;
+    font-weight: 600;
+    font-size: 36px;
+    color: #779611;
+}
+.subscription-text{
+    font-family:"Montserrat", sans-serif ;
+    font-weight: 400;
+    font-size: 20px;
+    color: #000;
+    padding-bottom: 50px;
+}
+.subscription-list{
+    display: flex;
+    gap:20px;
+}
+.subscription-caption{
+    font-weight: 400;
+    font-size: 24px;
+    color: #779611;
+    padding-top:35px;
+    padding-bottom: 15px;
+    padding-left: 60px;
+    font-family: "Montserrat", sans-serif;
+}
+.subscription-price{
+    padding-left: 60px;
+    font-weight: 400;
+    color: #000;
+    font-family: "Montserrat", sans-serif;
+    margin-bottom: 80px;
+}
+/* Fourth Section */
+.about-text{
+    font-family: "Exo 2", sans-serif ;
+    font-weight: 500;
+    font-size: 24px;
+    color: #779611;
+    margin-bottom: 15px;
+}
+.about-us-img{
+    
+}
+.about-container{
+    display: flex;
+align-items: center;
+gap:455px;
+margin-left: 100px;
+margin-bottom: 114px;
+margin-top: 114px;
+}
+.about-title{
+    font-weight: 600;
+    font-size: 48px;
+    color: #779611;
+    margin-bottom: 35px;
+    max-width: 560px;
+   font-family:  "Exo 2", sans-serif;
+}
+.about-us-text{
+    font-weight: 400;
+font-size: 24px;
+color: #000;
+font-family: "Montserrat", sans-serif;
+}
+/* Style for footer */
+footer{
+    font-family: "Montserrat", sans-serif;
+    border-top: 2px solid #779611;
+}
+.footer-container{
+display: flex;
+justify-content: space-between;
+margin-bottom: 60px;
+margin-top:40px;
+
+}
+.footer-item{
+margin-top: 20px;
+}
+.footer-link{
+    font-weight: 400;
+    font-size: 20px;
+    color: #000;
+}
+.footer-adress{
+
+}
+.footer-title{
+    font-weight: 400;
+    font-size: 20px;
+    color: #000;
+}
+.footer-text{
+margin-top: 20px;
+}
+.footer-contacts{
+    
+}
